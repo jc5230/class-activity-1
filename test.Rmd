@@ -2,12 +2,16 @@
 title: "Test"
 output: html_document
 ---
+
+## First Exploration on R
+<h1>aaa</h1>
+
 ```{r}
 
-library(`tidyr`)
-library(`dplyr`)
+library(tidyr)
+library(dplyr)
 
-DF1 <- read.csv(`swirl-data.csv`)
+DF1 <- read.csv("swirl-data.csv")
 
 ```
 
