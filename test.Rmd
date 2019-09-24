@@ -4,14 +4,14 @@ output: html_document
 ---
 
 ## First Exploration on R
-<h1>aaa</h1>
 
 ```{r}
 
 library(tidyr)
 library(dplyr)
 
-DF1 <- read.csv("swirl-data.csv")
-
+DF1 <- read.csv("swirl-data.csv", header = TRUE)
+DF2 <- dplyr::data_frame(DF1$hash, DF1$lesson_name, DF1$attempt)
+DF3 <- 
 ```
 
